@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Upload Prescription Button -->
+    <Button
+        android:id="@+id/btnSelect"
+        android:text="Upload Prescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Display Selected Image -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- OCR Result Text -->
+    <TextView
+        android:id="@+id/txtResult"
+        android:text="Detected Text"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- RecyclerView for Matched Medicines -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

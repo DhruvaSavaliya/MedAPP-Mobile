@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Online Medicine App</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="logout">Logout</string>
+    <string name="search_medicines">Search medicines</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="checkout">Checkout</string>
+    <string name="order_history">Order History</string>
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="add_medicine">Add Medicine</string>
+    <string name="manage_orders">Manage Orders</string>
+</resources>
